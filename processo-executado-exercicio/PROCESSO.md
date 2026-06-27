@@ -157,8 +157,6 @@ docs/
 ├── RFC.md              ← proposta técnica e alternativas descartadas
 ├── FDD.md              ← especificação de implementação com contratos e fluxos
 ├── TRACKER.md          ← rastreabilidade de cada item à transcrição ou ao código
-├── RESUMO-REUNIAO.md   ← resumo da transcrição (referência de trabalho)
-├── PROCESSO.md         ← este arquivo
 └── adrs/
     ├── ADR-001-outbox-no-mysql.md
     ├── ADR-002-worker-em-processo-separado.md
@@ -168,14 +166,20 @@ docs/
     ├── ADR-006-webhook-no-monolito-existente.md
     └── ADR-007-snapshot-payload-na-insercao.md
 
-prompts/
-└── resumo-reuniao.md   ← prompt reutilizável para resumo de qualquer reunião
+processo-executado-exercicio/
+├── PROCESSO.md             ← este arquivo
+├── resumo-reuniao.md       ← resumo organizado da transcrição
+├── comparacoes-prd/
+│   ├── PRD_ChatGPT.md
+│   └── PRD_ClaudeAI.md
+└── prompts/
+    └── prompt-resumo-reuniao.md
 ```
 
 ### Ordem sugerida de leitura
 
 1. `TRANSCRICAO.md` — entenda o que foi discutido na reunião original
-2. `docs/RESUMO-REUNIAO.md` — versão organizada do que foi decidido e por quê
+2. `processo-executado-exercicio/resumo-reuniao.md` — versão organizada do que foi decidido e por quê
 3. `docs/PRD.md` — visão de produto: problema, escopo e métricas
 4. `docs/adrs/ADR-001` a `ADR-007` — as decisões técnicas individuais, cada uma com contexto e trade-off
 5. `docs/RFC.md` — proposta técnica consolidada e questões em aberto

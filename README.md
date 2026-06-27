@@ -167,7 +167,7 @@ docs/
     └── ADR-007-snapshot-payload-na-insercao.md
 
 processo-executado-exercicio/
-├── PROCESSO.md             ← este arquivo (cópia em docs separados)
+├── PROCESSO.md             ← documentação do processo de produção
 ├── resumo-reuniao.md       ← resumo organizado da transcrição
 ├── comparacoes-prd/
 │   ├── PRD_ChatGPT.md
