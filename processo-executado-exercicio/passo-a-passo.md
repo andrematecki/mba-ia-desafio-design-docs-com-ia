@@ -12,4 +12,10 @@
 
     4.4. Refatoração do PRD gerado pelo claude code.
 
+5. Geração da RFC com claude Code
+6. Geração das ADRs com Claude Code
+    6.1. Revisão se as ADRs geradas eram realmente obrigatorias, opcionais ou descartaveis: 1 nova foi craida e 1 descartada.
+7. Geração do FDD com Claude Code baseado no prompt da aula.
+8. Geração do Tracker com Claude Code
+
 
